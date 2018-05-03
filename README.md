@@ -1,4 +1,4 @@
-# Realtime Camera Mask R-CNN Object Detection and Segmentation
+# Realtime Camera Mask R-CNN Objects Detection and Segmentation
 
 This is an implementation of Mask R-CNN on Python 3, Keras, and TensorFlow. The model generates bounding boxes and segmentation masks for each instance of an object in the image. It's based on Feature Pyramid Network (FPN) and a ResNet101 backbone.
 
@@ -97,11 +97,11 @@ Python 3.4, TensorFlow 1.3, Keras 2.0.8 and other common packages listed in `req
    ```bash
    pip3 install -r requirements.txt
    ```
-3. Install Pycocotools. `git clone https://github.com/philferriere/cocoapi.git coco` & `pip install git+https://github.com/philferriere/cocoapi.git#subdirectory=PythonAPI` 
+3. Install Pycocotools. `git clone https://github.com/philferriere/cocoapi.git coco` & `pip3 install git+https://github.com/philferriere/cocoapi.git#subdirectory=PythonAPI` 
 
 3. Download pre-trained COCO weight (mask_rcnn_coco.h5) from the [this link](https://github.com/matterport/Mask_RCNN/releases/download/v2.0/mask_rcnn_coco.h5) and place it in the root directory.
 
-4. For one time image objects detection place your image in `images` folder and  run `python3 ontime.py --image=tuba.jpg` for example. The result will be saved in the root directory.
+4. For one time image objects detection place your image in `images` folder and  run `python3 onetime.py --image=tuba.jpg` for example. The result will be saved in the root directory.
 
 ![Instance Segmentation Sample](assets/result.png)
 
