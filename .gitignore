@@ -1,0 +1,4 @@
+__pycache__/
+*.py[cod]
+mask_rcnn_coco.h5
+/coco
